@@ -44,7 +44,7 @@ export interface AllTrademarkDataType extends ResponseDataType {
 
 // img  data
 export interface ImgType {
-  id: number;
+  id?: number | string;
   name?: string;
   url?: string;
   imgUrl?: string;

@@ -14,9 +14,9 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from "vue";
-import "echarts-liquidfill";
 import * as echarts from "echarts";
+import "echarts-liquidfill";
+import { ref, onMounted } from "vue";
 
 const people = ref("1314520人");
 const charts = ref();

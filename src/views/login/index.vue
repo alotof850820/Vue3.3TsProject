@@ -80,12 +80,13 @@ const login = async () => {
     });
 
     loading.value = false;
-  } catch (error) {
+  } catch (error: any) {
     loading.value = false;
     ElNotification({ type: "error", message: error.message });
   }
 };
-const validatorUserName = (rule, value, callback) => {
+const validatorUserName = (rule: any, value: any, callback: any) => {
+  rule;
   if (value.length >= 5) {
     callback();
   } else {

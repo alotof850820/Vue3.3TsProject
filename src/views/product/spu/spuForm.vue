@@ -274,11 +274,13 @@ const addSaleAttr = () => {
   // 這方式好用
   const [baseSaleAttrId, saleAttrName] =
     saleAttrIdAndValueName.value.split(":");
-  saleAttr.value.push(<saleAttr>{
+
+  let newSaleAttr: SaleAttr = {
     baseSaleAttrId,
     saleAttrName,
     spuSaleAttrValueList: [],
-  });
+  };
+  saleAttr.value.push(newSaleAttr);
   saleAttrIdAndValueName.value = "";
 };
 const editSaleValue = (row: SaleAttr) => {

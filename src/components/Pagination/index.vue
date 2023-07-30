@@ -2,5 +2,5 @@
 <template>
   <el-pagination background layout="prev, pager, next" :total="1000" />
 </template>
-<script setup></script>
-<style scoped></style>
+<script setup lang="ts"></script>
+<style scoped lang="scss"></style>

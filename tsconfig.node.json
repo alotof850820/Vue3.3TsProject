@@ -1,10 +1,9 @@
 {
   "compilerOptions": {
-    "composite": true, //允许跨多个项目进行编译和增量构建，适用于大型项目。
-    "skipLibCheck": true, //在编译时跳过对声明文件的类型检查。这可以提高构建性能，但也可能导致一些类型相关的错误不被发现。
-    "module": "ESNext", //使用 ECMAScript 的最新模块系统。
-    "moduleResolution": "bundler", //使用打包工具（如Webpack、Rollup等）进行模块解析。
-    "allowSyntheticDefaultImports": true //使用默认导入（import）语法来导入没有默认导出的模块。
+    "composite": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true
   },
   "include": ["vite.config.ts"]
 }

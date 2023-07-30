@@ -230,7 +230,7 @@ const removeSku = async (row: SkuDataType) => {
     getSku(skuData.value.length > 1 ? pageNo.value : pageNo.value - 1);
   } else {
     ElMessage({
-      type: "erroe",
+      type: "error",
       message: "刪除失敗",
     });
   }

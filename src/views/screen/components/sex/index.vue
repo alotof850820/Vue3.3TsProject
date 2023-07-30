@@ -18,8 +18,8 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from "vue";
 import * as echarts from "echarts";
+import { ref, onMounted } from "vue";
 
 const charts = ref();
 onMounted(() => {

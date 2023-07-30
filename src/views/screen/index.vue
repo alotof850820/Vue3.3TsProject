@@ -39,7 +39,7 @@ import Year from "./components/year/index.vue";
 import Counter from "./components/counter/index.vue";
 
 // get DOM 元素
-const screen = ref();
+const screen = ref<any>();
 
 const getScale = (w = 1920, h = 1080) => {
   const ww = innerWidth / w;

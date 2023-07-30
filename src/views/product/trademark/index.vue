@@ -115,6 +115,7 @@ import {
   apiAddOrEditTrademark,
   apiDeleteTrademark,
 } from "@/api/product/trademark";
+// @ts-ignore
 import { ElMessage, UploadProps } from "element-plus";
 import type {
   allTrademarkDataType,

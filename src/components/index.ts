@@ -6,7 +6,7 @@ import * as ElementPlusIconsVue from "@element-plus/icons-vue";
 import Category from "@/components/Category/index.vue";
 
 //全局
-const allGlobalComponents = { SvgIcon, Pagination, Category };
+const allGlobalComponents: any = { SvgIcon, Pagination, Category };
 export default {
   // 插件一定是insatall
   install(app: any) {

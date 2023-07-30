@@ -50,7 +50,6 @@ onMounted(() => {
       },
     ],
   };
-  //设置配置项
   mychart.setOption(option);
 });
 </script>
