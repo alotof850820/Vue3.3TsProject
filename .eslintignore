@@ -1,0 +1,3 @@
+忽略哪些文件
+dist
+node_modules
